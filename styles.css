@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: hsla(0, 0%, 0%, 0.9);
+  font-family: "Merriweather", "Georgia", serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  font-kerning: normal;
+}
+
+p {
+  margin-bottom: 28px;
+}
+
+a {
+  box-shadow: 0 1px 0 0 currentColor;
+  color: #007acc;
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 16px;
+  padding-right: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+.container {
+  max-width: 630px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  /* background-color: aqua; */
+}
+
+.container__inner {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.author {
+  width: 200px;
+  /* height: 200px; */
+}
